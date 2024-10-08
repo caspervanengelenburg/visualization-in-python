@@ -1,15 +1,18 @@
-# Visualization in python
+# Python DataViz
 
-Mostly related to deep learning: embeddings, clusters, layer activations, input representations, training and learning curves, image and image transformations, etc.
+Making (data) visualization in Python fun, attractive, and beautiful.
 
-Explored libraries:
+The visualization are structured in **notebooks**, each with a particular topic.
+(It is somewhat unstructured now. The idea is, however, to improve the organization drastically ... but, in the future
+)
+
+Often the visualizations are somewhat related to deep learning (e.g., embeddings, clusters, layer activations, input representations, training and learning curves, image and image transformations)
+
+Explored libraries
+:
+- `matplotlib` (mostly)
 - `seaborn`
-- `matplotlib`
 - `open-cv`
 - `skimage`
-
-Topics (so far)
-- general plots: curves, histograms, scatter, heatmaps
-- make up: coloring, ticks, background, gridspec, font, adding objects
-- animations: 2D / 3D
-- complex plots: geometry and graphs
+- `newtorkx` (for graphs)
+- machine learning: `pytorch` and `pytorch geometric`
